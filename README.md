@@ -7,6 +7,7 @@ Fun react app that makes pictures with animal stuck in a weird place and added S
 - Randomly shows a funny animal image
 - Adds a Spanish name on bottom of the image
 - Just click "Generate Another" to see a new mix of trapped beast and latin nombre!
+- You can download generated image!
 
 ## Getting Started
 
