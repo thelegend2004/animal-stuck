@@ -29,7 +29,7 @@ function App() {
 
     const canvas = await html2canvas(imageRef.current);
     const link = document.createElement("a");
-    link.download = `${randomName}.png`;
+    link.download = `${randomName.slice(0, randomName.length - 1)}.png`;
     link.href = canvas.toDataURL("image/png");
     link.click();
   };
